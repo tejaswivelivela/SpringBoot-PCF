@@ -1,0 +1,6 @@
+name: microservicepcf
+path: target\micro-service-demo-0.0.1.jar
+buildpack: https://github.com/cloudfoundry/java-buildpack.git
+memory: 1G
+services:
+  - mysql
